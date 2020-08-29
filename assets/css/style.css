@@ -62,7 +62,8 @@ body {
           right: 24%; }
           body .wrapper .hero-section .menu .contact p {
             font-weight: lighter;
-            color: #0B9ED9; }
+            color: #0B9ED9;
+            margin: 16px; }
         body .wrapper .hero-section .menu .media {
           position: absolute;
           bottom: 70px;
@@ -72,6 +73,15 @@ body {
             color: #0B9ED9;
             font-weight: lighter;
             padding-right: 16px; }
+  @media screen and (max-width: 768px) {
+    body .wrapper .hero-section h1 {
+      font-size: 20px; }
+    body .wrapper .hero-section .menu-btn {
+      margin: .5em; }
+    body .wrapper .hero-section .menu nav {
+      margin-top: 20%; }
+    body .wrapper .hero-section .menu .contact {
+      display: none; } }
 
 a ion-icon {
   position: relative;
@@ -79,10 +89,5 @@ a ion-icon {
   opacity: 0.4;
   color: #F25CA2; }
 
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 20px; }
-  nav {
-    margin-top: 20%; }
-  .contact {
-    display: none; } }
+.call ion-icon {
+  margin-right: 5px; }

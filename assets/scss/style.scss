@@ -93,6 +93,7 @@ body {
           p {
             font-weight: lighter;
             color: $color4;
+            margin: 16px;
           }
         }
 
@@ -113,6 +114,35 @@ body {
       }
     }
   }
+
+  @media screen and (max-width: 768px) {
+  
+
+    .wrapper {
+      .hero-section {
+  
+        h1 {
+          font-size: 20px;
+        }
+
+        .menu-btn {
+          margin: .5em;
+        }
+
+        .menu {
+          nav {
+            margin-top: 20%;
+          }
+  
+          .contact {
+            display: none;
+          }
+        }
+      }
+    }
+  
+    
+  }
 }
 
 a ion-icon {
@@ -122,16 +152,7 @@ a ion-icon {
   color: $color3;
 }
 
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 20px;
-  }
-
-  nav {
-    margin-top: 20%;
-  }
-
-  .contact {
-    display: none;
-  }
+.call ion-icon {
+  margin-right: 5px;
 }
+
