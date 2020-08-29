@@ -1,1 +1,1 @@
-# responsive-dropdown-menu_jquery-gsap
+# Responsive Dropdown Navigation Menu | HTML, CSS & JavaScript (JQuery + GSAP)

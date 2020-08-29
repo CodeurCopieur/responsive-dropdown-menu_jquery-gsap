@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Responsive Dropdown Navigation Menu | HTML, CSS & JavaScript (JQuery + GSAP)</title>
+    <!--font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&amp;display=swap"/>
+    <!--css-->
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/index.css"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="hero-section">
+        <h1>Responsive Dropdown Navigation Menu</h1>
+        <div class="menu-btn">
+          <ion-icon name="menu"></ion-icon>
+        </div>
+        <div class="menu">
+          <div class="close-menu">
+            <ion-icon name="close"></ion-icon>
+          </div>
+          <nav>
+            <ul class="main-menu">
+              <li class="main-menu-item"><a href="#">Home</a></li>
+              <li class="main-menu-item"><a href="#">Nos Products
+                  <ion-icon name="add"></ion-icon></a>
+                <ul class="submenu">
+                  <li class="submenu-item"><a href="#">Fonts</a></li>
+                  <li class="submenu-item"><a href="#">Mockups</a></li>
+                  <li class="submenu-item"><a href="#">Presets</a></li>
+                </ul>
+              </li>
+              <li class="main-menu-item"><a href="#">Portfolio
+                  <ion-icon name="add"></ion-icon></a>
+                <ul class="submenu">
+                  <li class="submenu-item"><a href="#">Projet 1</a></li>
+                  <li class="submenu-item"><a href="#">Projet 2</a></li>
+                  <li class="submenu-item"><a href="#">Projet 3</a></li>
+                  <li class="submenu-item"><a href="#">Projet 4</a></li>
+                </ul>
+              </li>
+              <li class="main-menu-item"><a href="#">Our Story</a></li>
+              <li class="main-menu-item"><a href="#">Contact
+                  <ion-icon name="add"></ion-icon></a>
+                <ul class="submenu">
+                  <li class="submenu-item"><a href="#">Call now</a></li>
+                  <li class="submenu-item"><a href="#">Mail us</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <div class="contact">
+            <p class="call">
+              <ion-icon name="call"></ion-icon><span>+33 2908 2020</span>
+            </p>
+            <p class="call">
+              <ion-icon name="mail"></ion-icon><span>louisws@outlook.fr</span>
+            </p>
+          </div>
+          <div class="media">
+            <ul>
+              <li>Github</li>
+              <li>Instagram </li>
+              <li>Twitter </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--script-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>

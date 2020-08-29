@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+html(lang="fr")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Responsive Dropdown Navigation Menu | HTML, CSS & JavaScript (JQuery + GSAP)
+
+    
+
+    //font
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&display=swap")
+
+    //css
+    link(rel="stylesheet", href="assets/css/style.css")
+    link(rel="stylesheet", href="assets/css/index.css")
+  body
+
+    .wrapper
+      .hero-section
+        h1 Responsive Dropdown Navigation Menu
+
+        .menu-btn
+          ion-icon(name="menu")
+
+        .menu
+          .close-menu
+            ion-icon(name="close")
+          
+          nav
+            ul.main-menu
+
+              li.main-menu-item
+                a(href="#") Home
+
+              li.main-menu-item
+                a(href="#") Nos Products
+                  ion-icon(name="add")
+                ul.submenu
+                  li.submenu-item
+                    a(href="#") Fonts
+                  li.submenu-item
+                    a(href="#") Mockups
+                  li.submenu-item
+                    a(href="#") Presets
+
+              li.main-menu-item
+                a(href="#") Portfolio
+                  ion-icon(name="add")
+                ul.submenu
+                  li.submenu-item
+                    a(href="#") Projet 1
+                  li.submenu-item
+                    a(href="#") Projet 2
+                  li.submenu-item
+                    a(href="#") Projet 3
+                  li.submenu-item
+                    a(href="#") Projet 4
+              
+              li.main-menu-item
+                a(href="#") Our Story
+
+              li.main-menu-item
+                a(href="#") Contact
+                  ion-icon(name="add")
+                ul.submenu
+                  li.submenu-item
+                    a(href="#") Call now
+                  li.submenu-item
+                    a(href="#") Mail us
+        
+          .contact
+            p.call
+              ion-icon(name="call")
+              span +33 2908 2020
+            p.call
+              ion-icon(name="mail")
+              span louisws@outlook.fr
+          .media
+            ul
+              li Github
+              li Instagram 
+              li Twitter 
+
+    //script
+    script(src="https://code.jquery.com/jquery-3.4.1.js")
+    script(src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js")
+    script(src="assets/js/index.js")
